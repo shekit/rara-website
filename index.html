@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.png" />
+<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Helvetica", sans-serif;
+  color: #777;
+}
+
+.base-color {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.base-color {
+  background: #030f1e;
+  height: 100%;
+}
+
+.stripes {
+  background: repeating-linear-gradient(
+    355deg,
+    #0E136B 0,
+    #0E136B 1px,
+    #030f1e 0px,
+    #030f1e 8px
+  );
+  /*,radial-gradient(circle, #DA7DD4 60%, black 150%);;*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(.75px);
+  background-blend-mode: multiply;
+}
+
+.shapes, .logo-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.logo-wrapper {
+  width: 400px;
+}
+
+/*.shapes{
+  background-image: url("shapes.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+}*/
+
+.vignette {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(circle, transparent 60%, black 150%);
+}
+
+
+.logo {
+  filter: drop-shadow(6px 6px 4px #030f1e);
+  width: 300px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-self: flex-start;
+
+}
+
+.decoration {
+  width: 500px;
+  margin-top:-10px;
+  opacity: 70%;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.social {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.social:hover {
+  text-decoration: underline;
+}
+
+#mc_embed_signup{ 
+  clear:left; 
+  font:14px;
+  width:100%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#mc_embed_signup input.email {
+  max-width: 290px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#mc_embed_signup .button {
+  background-color: #DB5770;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170781547-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170781547-1');
+</script>
+
+</head>
+<body>
+
+<div class="base-color">
+  <div class="stripes"></div>
+  <div class="vignette"></div>
+  <div class="shapes">
+    <img class="decoration" alt="decoration" src="images/shape@3x.png">
+  </div>
+  <div class="logo-wrapper">
+    <img class="logo" alt="Rara logo" src="images/logo.png">
+    <h1>Create. Share. Play.</h1>
+    <!-- Begin Mailchimp Signup Form -->
+
+    <div id="mc_embed_signup">
+      <form action="https://rara.us10.list-manage.com/subscribe/post?u=5c00f1d9ea1dc9bec3128e06a&amp;id=8cbd98c6e2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+        
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c00f1d9ea1dc9bec3128e06a_8cbd98c6e2" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Join List" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+      </form>
+    </div>
+    <!--End mc_embed_signup-->
+    <p><a class="social" target="_blank" href="https://twitter.com/raradotco">TWITTER</a></p>
+  </div>
+
+  
+</div>
+
+
+</body>
+</html>
