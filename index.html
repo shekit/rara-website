@@ -4,6 +4,7 @@
 <title>Rara</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="favicon.png" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
 <style>
@@ -96,6 +97,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   font-size: 24px;
+  margin-top: 20px;
 }
 
 p {
@@ -151,6 +153,41 @@ p {
   background: rgba(3,15,30,0.8);
   color: white;
   padding: 10px 10px;
+
+}
+
+@media (max-width: 768px){
+  .base-color{
+    width: 100%;
+  }
+
+  .shapes {
+    display: none;
+  }
+
+  .logo-wrapper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  h1 {
+    margin-top: 10px;
+  }
+
+  #mc_embed_signup input.email {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  #mc_embed_signup .button {
+    max-width: 90%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+
 
 }
 
